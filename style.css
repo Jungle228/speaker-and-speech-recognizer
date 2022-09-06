@@ -1,0 +1,51 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+}
+
+.buttons {
+    border-radius: 5px;
+    background-color: #EBC554;
+    font-size: 32px;
+    color: #6B5A27;
+
+    transition: .1s linear;
+}
+
+.buttons:hover{
+    background-color: #EEDA9D;
+}
+
+.tb{
+    font-size: 32px;
+    border-radius: 5px;
+    width: 75%;
+}
+
+.block_div{
+    width: 33%;
+}
+
+.select_class{
+    font-size: 32px;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.h2_title{
+    text-align: center;
+}
+
+.container {
+    display: inline-flex;
+    width: 100%;
+}
+
+.block_div1{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}

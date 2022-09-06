@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Распознавание речи и говорилка.</title>
+</head>
+<body>
+    <h1>Говорилка и распознавание речи</h1>
+    <p>
+        <div class = "container">
+            <div class="block_div">
+                <h2 class="h2_title">Выбрать голос (и язык)</h2>
+                <select id="select" class="select_class"></select>
+            </div>        
+            <div class="block_div">
+                <h2 class="h2_title">Тембр</h2>
+                <input type="text" class="select_class" id="inputPitch" value="1">
+            </div>  
+            <div class="block_div">
+                <h2 class="h2_title">Скорость</h2>
+                <input type="text" class="select_class" id="inputRate" value="1">
+            </div>  
+        </div>        
+    </p>
+    <div class="block_div1">
+        <p><input type="text" class="tb" id="speakingText"></p>
+        <p><button class="buttons" id="SpeakButton" onclick=onclickSpeak()>Сказать</button></p>
+    </div>
+    <p>
+        <h1>Разпознать речь</h1>
+    </p>
+    <div class="block_div1">
+        <p><input type="text" class="tb" id="finalStr"></p>
+        <p>
+            <button class="buttons" id="ListenButton" onclick=start()>Начать запись</button>
+            <button class="buttons" id="StopButton" onclick=stop()>Остановить запись</button>
+        </p>
+    </div>
+</body>
+</html>
